@@ -1,0 +1,223 @@
+/* Reset general */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #f7f7f7;
+}
+
+/* Contenedor principal */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 40px); /* Altura ajustada por padding */
+  background-color: #f7f7f7;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Logo animado */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Header opcional (si lo usas) */
+.App-header {
+  background-color: #282c34;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Enlaces de React (si se usan) */
+.App-link {
+  color: #61dafb;
+}
+
+/* Título principal */
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Formulario */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  border-radius: 12px;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+form label {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 8px;
+  display: block;
+}
+
+form input,
+form textarea {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* Botón de inicio de sesión */
+button {
+  background-color: #4285F4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #357ae8;
+}
+
+.title-form {
+  margin-top: 0px;
+  padding: 0px 20px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease;
+}
+
+/* Estilo del enlace de Google Meet */
+.meet-link {
+  margin-top: 24px;
+  padding: 16px 20px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease;
+}
+
+.meet-link h3 {
+  font-size: 1.3rem;
+  color: #202124;
+  margin-bottom: 10px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.meet-link a {
+  color: #1a73e8;
+  font-size: 1.05rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.meet-link a:hover {
+  border-bottom: 2px solid #1a73e8;
+} 
+
+.google-btn-container {
+  text-align: center;
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #555;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: fit-content;
+  margin: auto;
+}
+
+.google-btn:hover {
+  background-color: #f7f7f7;
+}
+
+.google-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.header {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.oefa-logo {
+  width: 50%;
+  height: auto;
+}
+
+.title {
+  font-size: 32px;
+  color: #004a99; /* azul institucional */
+  font-weight: bold;
+  margin-top: 15px;
+}
